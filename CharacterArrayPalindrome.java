@@ -13,7 +13,7 @@ public class CharacterArrayPalindrome {
         // Step 3: Execute Two-Pointer Logic
         boolean result = isPalindrome(charArray);
 
-        System.out.println("Is '" + input + "' a palindrome? " + result);
+        System.out.println("Is  '" + input + "' a palindrome? " + result);
     }
 
     public static boolean isPalindrome(char[] arr) {
