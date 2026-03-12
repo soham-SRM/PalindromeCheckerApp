@@ -60,7 +60,7 @@ public class UseCase12PalindromeCheckerApp {
         System.out.print("Enter text: ");
         String input = scanner.nextLine();
 
-        System.out.println("Select Strategy: 1) Stack  2) Deque");
+        System.out.println("Select Strategy: 1) Stack  2   ) Deque");
         int choice = scanner.nextInt();
 
         // Polymorphism in action: Injecting the strategy at runtime
